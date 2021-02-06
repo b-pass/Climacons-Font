@@ -16,12 +16,22 @@
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
+.climacon.B2:before,
+.climacon.OV:before,
+.climacon.B2n:before,
+.climacon.OVn:before,
 .climacon.cloud:before {
 	content: "\e000";
 }
+.climacon.SC:before,
+.climacon.BK:before,
+.climacon.B1:before,
 .climacon.cloud.sun:before {
 	content: "\e001";
 }
+.climacon.SCn:before,
+.climacon.BKn:before,
+.climacon.B1n:before,
 .climacon.cloud.moon:before {
 	content: "\e002";
 }
@@ -37,6 +47,7 @@
 .climacon.rain.cloud.moon:before {
 	content: "\e005";
 }
+.climacon.rainshwrs:before,
 .climacon.showers:before,
 .climacon.showers.cloud:before {
 	content: "\e006";
@@ -61,6 +72,7 @@
 .climacon.downpour.cloud.moon:before {
 	content: "\e00b";
 }
+.climacon.sprinkles:before,
 .climacon.drizzle:before,
 .climacon.drizzle.cloud:before {
 	content: "\e00c";
@@ -73,26 +85,34 @@
 .climacon.drizzle.cloud.moon:before {
 	content: "\e00e";
 }
-.climacon.sleet:before,
-.climacon.sleet.cloud:before {
+.climacon.frzngrain:before,
+.climacon.frzngdrzl:before,
+.climacon.freezing.rain:before,
+.climacon.freezing.rain.cloud:before {
 	content: "\e00f";
 }
-.climacon.sleet.sun:before,
-.climacon.sleet.cloud.sun:before {
+.climacon.freezing.rain.sun:before,
+.climacon.freezing.rain.cloud.sun:before {
 	content: "\e010";
 }
-.climacon.sleet.moon:before,
-.climacon.sleet.cloud.moon:before {
+.climacon.freezing.rain.moon:before,
+.climacon.freezing.rain.cloud.moon:before {
 	content: "\e011";
 }
+.climacon.sleet:before,
+.climacon.sleet.cloud:before,
 .climacon.hail:before,
 .climacon.hail.cloud:before {
 	content: "\e012";
 }
+.climacon.sleet.sun:before,
+.climacon.sleet.cloud.sun:before,
 .climacon.hail.sun:before,
 .climacon.hail.cloud.sun:before {
 	content: "\e013";
 }
+.climacon.sleet.moon:before,
+.climacon.sleet.cloud.moon:before,
 .climacon.hail.moon:before,
 .climacon.hail.cloud.moon:before {
 	content: "\e014";
@@ -109,6 +129,7 @@
 .climacon.flurries.cloud.moon:before {
 	content: "\e017";
 }
+.climacon.snowshwrs:before,
 .climacon.snow:before,
 .climacon.snow.cloud:before {
 	content: "\e018";
@@ -121,18 +142,22 @@
 .climacon.snow.cloud.moon:before {
 	content: "\e01a";
 }
+.climacon.F:before,
 .climacon.fog:before,
 .climacon.fog.cloud:before {
 	content: "\e01b";
 }
+.climacon.PF:before,
 .climacon.fog.sun:before,
 .climacon.fog.cloud.sun:before {
 	content: "\e01c";
 }
+.climacon.PFn:before,
 .climacon.fog.moon:before,
 .climacon.fog.cloud.moon:before {
 	content: "\e01d";
 }
+.climacon.H:before,
 .climacon.haze:before {
 	content: "\e01e";
 }
@@ -156,10 +181,13 @@
 .climacon.wind.cloud.moon:before {
 	content: "\e024";
 }
+.climacon.tstms:before,
+.climacon.thunder.storm:before,
 .climacon.lightning:before,
 .climacon.lightning.cloud:before {
 	content: "\e025";
 }
+.climacon.thunder:before,
 .climacon.lightning.sun:before,
 .climacon.lightning.cloud.sun:before {
 	content: "\e026";
@@ -168,6 +196,8 @@
 .climacon.lightning.cloud.moon:before {
 	content: "\e027";
 }
+.climacon.CL:before,
+.climacon.FW:before,
 .climacon.sun:before {
 	content: "\e028";
 }
@@ -189,6 +219,8 @@
 .climacon.lower-sun:before {
 	content: "\e02c";
 }
+.climacon.CLn:before,
+.climacon.FWn:before,
 .climacon.moon:before {
 	content: "\e02d";
 }
